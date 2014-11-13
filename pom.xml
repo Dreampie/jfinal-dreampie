@@ -6,7 +6,7 @@
 
   <groupId>cn.dreampie</groupId>
   <artifactId>jfinal-dreampie</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
   <name>jfinal-dreampie</name>
   <description>jfinal shiro-freemarker plugins</description>
@@ -45,7 +45,8 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <!-- For the Maven Jetty plugin (mvn jetty:run) -->
-    <jfinal.version>1.8</jfinal.version>
+    <jfinal.version>1.9</jfinal.version>
+    <jfinal-web.version>0.1</jfinal-web.version>
     <jfinal-shiro.version>0.1</jfinal-shiro.version>
     <jfinal-shiro-freemarker.version>0.1</jfinal-shiro-freemarker.version>
     <jfinal-coffeescript.version>0.1</jfinal-coffeescript.version>
@@ -56,6 +57,7 @@
     <jfinal-captcha.version>0.1</jfinal-captcha.version>
     <jfinal-quartz.version>0.1</jfinal-quartz.version>
     <jfinal-mailer.version>0.1</jfinal-mailer.version>
+    <jfinal-utils.version>0.1</jfinal-utils.version>
     <freemarker.version>2.3.20</freemarker.version>
     <logback.version>1.1.2</logback.version>
   </properties>
@@ -72,6 +74,12 @@
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>${logback.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.dreampie</groupId>
+      <artifactId>jfinal-web</artifactId>
+      <version>${jfinal-web.version}</version>
     </dependency>
 
     <dependency>
@@ -145,6 +153,12 @@
       <groupId>cn.dreampie</groupId>
       <artifactId>jfinal-mailer</artifactId>
       <version>${jfinal-mailer.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.dreampie</groupId>
+      <artifactId>jfinal-utils</artifactId>
+      <version>${jfinal-utils.version}</version>
     </dependency>
   </dependencies>
 
