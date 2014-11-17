@@ -6,7 +6,7 @@
 
   <groupId>cn.dreampie</groupId>
   <artifactId>jfinal-dreampie</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
   <name>jfinal-dreampie</name>
   <description>jfinal shiro-freemarker plugins</description>
@@ -49,8 +49,8 @@
     <jfinal-web.version>0.1</jfinal-web.version>
     <jfinal-shiro.version>0.1</jfinal-shiro.version>
     <jfinal-shiro-freemarker.version>0.1</jfinal-shiro-freemarker.version>
-    <jfinal-coffeescript.version>0.1</jfinal-coffeescript.version>
-    <jfinal-lesscss.version>0.1</jfinal-lesscss.version>
+    <!--<jfinal-coffeescript.version>0.1</jfinal-coffeescript.version>-->
+    <!--<jfinal-lesscss.version>0.1</jfinal-lesscss.version>-->
     <jfinal-tablebind.version>0.1</jfinal-tablebind.version>
     <jfinal-sqlinxml.version>0.1</jfinal-sqlinxml.version>
     <jfinal-flyway.version>0.1</jfinal-flyway.version>
@@ -138,17 +138,17 @@
       <version>${jfinal-quartz.version}</version>
     </dependency>
 
-    <dependency>
-      <groupId>cn.dreampie</groupId>
-      <artifactId>jfinal-coffeescript</artifactId>
-      <version>${jfinal-coffeescript.version}</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>cn.dreampie</groupId>-->
+      <!--<artifactId>jfinal-coffeescript</artifactId>-->
+      <!--<version>${jfinal-coffeescript.version}</version>-->
+    <!--</dependency>-->
 
-    <dependency>
-      <groupId>cn.dreampie</groupId>
-      <artifactId>jfinal-lesscss</artifactId>
-      <version>${jfinal-lesscss.version}</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>cn.dreampie</groupId>-->
+      <!--<artifactId>jfinal-lesscss</artifactId>-->
+      <!--<version>${jfinal-lesscss.version}</version>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>cn.dreampie</groupId>
