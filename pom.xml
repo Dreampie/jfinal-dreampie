@@ -58,6 +58,7 @@
     <jfinal-quartz.version>0.1</jfinal-quartz.version>
     <jfinal-mailer.version>0.1</jfinal-mailer.version>
     <jfinal-utils.version>0.1</jfinal-utils.version>
+    <jfinal-slf4j.version>0.1</jfinal-slf4j.version>
     <freemarker.version>2.3.20</freemarker.version>
     <logback.version>1.1.2</logback.version>
   </properties>
@@ -159,6 +160,12 @@
       <groupId>cn.dreampie</groupId>
       <artifactId>jfinal-utils</artifactId>
       <version>${jfinal-utils.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.dreampie</groupId>
+      <artifactId>jfinal-slf4j</artifactId>
+      <version>${jfinal-slf4j.version}</version>
     </dependency>
   </dependencies>
 
