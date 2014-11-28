@@ -6,7 +6,7 @@
 
   <groupId>cn.dreampie</groupId>
   <artifactId>jfinal-dreampie</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
   <name>jfinal-dreampie</name>
   <description>jfinal shiro-freemarker plugins</description>
@@ -49,16 +49,15 @@
     <jfinal-web.version>0.1</jfinal-web.version>
     <jfinal-shiro.version>0.1</jfinal-shiro.version>
     <jfinal-shiro-freemarker.version>0.1</jfinal-shiro-freemarker.version>
-    <!--<jfinal-coffeescript.version>0.1</jfinal-coffeescript.version>-->
-    <!--<jfinal-lesscss.version>0.1</jfinal-lesscss.version>-->
     <jfinal-tablebind.version>0.1</jfinal-tablebind.version>
+    <jfinal-routebind.version>0.1</jfinal-routebind.version>
     <jfinal-sqlinxml.version>0.1</jfinal-sqlinxml.version>
-    <jfinal-flyway.version>0.1</jfinal-flyway.version>
     <jfinal-captcha.version>0.1</jfinal-captcha.version>
     <jfinal-quartz.version>0.1</jfinal-quartz.version>
     <jfinal-mailer.version>0.1</jfinal-mailer.version>
     <jfinal-utils.version>0.1</jfinal-utils.version>
     <jfinal-slf4j.version>0.1</jfinal-slf4j.version>
+    <websocket.version>0.1</websocket.version>
     <freemarker.version>2.3.20</freemarker.version>
     <logback.version>1.1.2</logback.version>
   </properties>
@@ -110,14 +109,20 @@
 
     <dependency>
       <groupId>cn.dreampie</groupId>
+      <artifactId>jfinal-routebind</artifactId>
+      <version>${jfinal-routebind.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.dreampie</groupId>
       <artifactId>jfinal-tablebind</artifactId>
       <version>${jfinal-tablebind.version}</version>
     </dependency>
 
     <dependency>
       <groupId>cn.dreampie</groupId>
-      <artifactId>jfinal-flyway</artifactId>
-      <version>${jfinal-flyway.version}</version>
+      <artifactId>websocket</artifactId>
+      <version>${websocket.version}</version>
     </dependency>
 
     <dependency>
@@ -137,18 +142,6 @@
       <artifactId>jfinal-quartz</artifactId>
       <version>${jfinal-quartz.version}</version>
     </dependency>
-
-    <!--<dependency>-->
-      <!--<groupId>cn.dreampie</groupId>-->
-      <!--<artifactId>jfinal-coffeescript</artifactId>-->
-      <!--<version>${jfinal-coffeescript.version}</version>-->
-    <!--</dependency>-->
-
-    <!--<dependency>-->
-      <!--<groupId>cn.dreampie</groupId>-->
-      <!--<artifactId>jfinal-lesscss</artifactId>-->
-      <!--<version>${jfinal-lesscss.version}</version>-->
-    <!--</dependency>-->
 
     <dependency>
       <groupId>cn.dreampie</groupId>
