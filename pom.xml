@@ -6,7 +6,7 @@
 
   <groupId>cn.dreampie</groupId>
   <artifactId>jfinal-dreampie</artifactId>
-  <version>1.2</version>
+  <version>1.2.1</version>
   <packaging>jar</packaging>
   <name>jfinal-dreampie</name>
   <description>jfinal shiro-freemarker plugins</description>
@@ -53,8 +53,8 @@
     <jfinal-routebind.version>0.1</jfinal-routebind.version>
     <jfinal-sqlinxml.version>0.1</jfinal-sqlinxml.version>
     <jfinal-captcha.version>0.1</jfinal-captcha.version>
-    <jfinal-quartz.version>0.1</jfinal-quartz.version>
-    <jfinal-mailer.version>0.1</jfinal-mailer.version>
+    <jfinal-quartz.version>0.2</jfinal-quartz.version>
+    <jfinal-mailer.version>0.2</jfinal-mailer.version>
     <jfinal-utils.version>0.1</jfinal-utils.version>
     <jfinal-slf4j.version>0.1</jfinal-slf4j.version>
     <websocket.version>0.1</websocket.version>
