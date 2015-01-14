@@ -46,7 +46,7 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <!-- For the Maven Jetty plugin (mvn jetty:run) -->
     <jfinal.version>1.9</jfinal.version>
-    <jfinal-web.version>0.2</jfinal-web.version>
+    <jfinal-web.version>0.2.1</jfinal-web.version>
     <jfinal-shiro.version>0.2</jfinal-shiro.version>
     <jfinal-shiro-freemarker.version>0.2</jfinal-shiro-freemarker.version>
     <jfinal-tablebind.version>0.1</jfinal-tablebind.version>
